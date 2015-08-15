@@ -13,6 +13,7 @@
 		467F10C21B74E57C00F02595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F10C11B74E57C00F02595 /* Images.xcassets */; };
 		467F10C51B74E57C00F02595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467F10C31B74E57C00F02595 /* LaunchScreen.xib */; };
 		467F10D11B74E57C00F02595 /* BezierPathAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F10D01B74E57C00F02595 /* BezierPathAnimationSampleTests.swift */; };
+		4687DE021B7A3D6E004BF3D1 /* CAShapeLayer+CustomBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687DE011B7A3D6E004BF3D1 /* CAShapeLayer+CustomBezierPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		467F10CA1B74E57C00F02595 /* BezierPathAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F10CF1B74E57C00F02595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F10D01B74E57C00F02595 /* BezierPathAnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathAnimationSampleTests.swift; sourceTree = "<group>"; };
+		4687DE011B7A3D6E004BF3D1 /* CAShapeLayer+CustomBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+CustomBezierPath.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				467F10BA1B74E57C00F02595 /* AppDelegate.swift */,
 				467F10BC1B74E57C00F02595 /* ViewController.swift */,
+				4687DE011B7A3D6E004BF3D1 /* CAShapeLayer+CustomBezierPath.swift */,
 				467F10BE1B74E57C00F02595 /* Main.storyboard */,
 				467F10C11B74E57C00F02595 /* Images.xcassets */,
 				467F10C31B74E57C00F02595 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				467F10BD1B74E57C00F02595 /* ViewController.swift in Sources */,
 				467F10BB1B74E57C00F02595 /* AppDelegate.swift in Sources */,
+				4687DE021B7A3D6E004BF3D1 /* CAShapeLayer+CustomBezierPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				467F10D61B74E57C00F02595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		467F10D71B74E57C00F02595 /* Build configuration list for PBXNativeTarget "BezierPathAnimationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				467F10D91B74E57C00F02595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
